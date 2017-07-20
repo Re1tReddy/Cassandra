@@ -2,6 +2,10 @@
 
 This repo shows examples using Apache Cassandra and Datastax Java Driver for Apache Cassandra                          
 
+
+
+Creating Cassandra Keyspace and Table :                             
+---------------------------------------                             
 create keyspace dev  with replication = {'class':'SimpleStrategy','replication_factor':1};                
  use dev;                           
 create table emp (empid int primary key,emp_first varchar, emp_last varchar, emp_dept varchar);                    
