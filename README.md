@@ -6,6 +6,6 @@ create keyspace dev  with replication = {'class':'SimpleStrategy','replication_f
  use dev;                           
 create table emp (empid int primary key,emp_first varchar, emp_last varchar, emp_dept varchar);                    
 
-insert into emp (empid, emp_first, emp_last, emp_dept) values (1,'rev','smith','eng');                            
-insert into emp (empid, emp_first, emp_last, emp_dept) values (2,'aru','reddy','eng');                                 
-insert into emp (empid, emp_first, emp_last, emp_dept) values (3,'shyam','reddy','CA');                                    
+insert into emp (empid, emp_first, emp_last, emp_dept) values (1,'rev','kumar','eng');                            
+insert into emp (empid, emp_first, emp_last, emp_dept) values (2,'smith','reddy','eng');                                 
+insert into emp (empid, emp_first, emp_last, emp_dept) values (3,'shyam','sunder','CA');                                    
