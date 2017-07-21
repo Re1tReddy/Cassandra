@@ -5,7 +5,21 @@ Connecting to Cassandra Using Java and Scala programming languages.
 Connecting to cassandra in a secured way .                                       
 
 
-Creating Cassandra Keyspace and Table :                             
+Cassandra Installation:                                       
+-----------------------                                       
+wget http://downloads.datastax.com/community/dsc-cassandra-3.0.9-bin.tar.gz                                       
+tar -zxvf dsc-cassandra-3.0.9-bin.tar.gz                              
+
+vi ~/.bash_profile                                       
+export CASSANDRA_HOME=/users/apps/cassandra/dsc-cassandra-3.0.9/                                       
+export PATH=$CASSANDRA_HOME/bin:$PATH                                       
+source ~/.bash_profile                                       
+
+Start Cassandra as a background process:                                       
+>sudo cassandra&                                       
+>cqlsh                                       
+
+Creating Cassandra Keyspace and Table :                                                                    
 ---------------------------------------                             
 create keyspace dev  with replication = {'class':'SimpleStrategy','replication_factor':1};                
  use dev;                           
