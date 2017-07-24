@@ -1,7 +1,8 @@
 # Cassandra Java and Scala Examples
 
 This repo shows examples using Apache Cassandra and Datastax Java Driver for Apache Cassandra                          
-Connecting to Cassandra Using Java and Scala programming languages.                                                           
+Connecting to Cassandra Using Java and Scala programming languages.              
+Basic example to test the connection with Cassandra.                                                  
 Connecting to cassandra in a secured way .                                       
 Performing CRUD oprations in Cassandra.                                         
 
