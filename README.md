@@ -70,3 +70,10 @@ https://academy.datastax.com/resources/getting-started-apache-spark
 Install and setup Apache Cassandra Single Node cluster   :                                                                                http://www.techburps.com/cassandra/cassandra-single-node-cluster/59/         
 
 Install and setup Apache Cassandra Multiple Node cluster :                                                               http://www.techburps.com/cassandra/cassandra-multiple-node-cluster/60/
+
+
+------------------------------------------------------------------------------------------------------------------------------------     
+
+You can reach me for any suggestions/clarifications on  : revanthkumar95@gmail.com                                              
+Feel free to share any insights or constructive criticism. Cheers!!                                                           
+#Happy Learning!!!.. 
