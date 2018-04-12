@@ -11,7 +11,7 @@ public class TestCodec {
 	public static void main(String[] args) {
 		// Setup the cluster connection
 		Cluster cluster = Cluster.builder().addContactPoint("127.0.0.1").build();
-		Session session = cluster.connect("rasa_database");
+		Session session = cluster.connect("dev");
 
 		// Configure our DateTimeCodec
 		CodecRegistry codecRegistry = cluster.getConfiguration().getCodecRegistry();
